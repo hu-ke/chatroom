@@ -1,1 +1,3 @@
 */node_modules
+socketIoServer/logs/
+socketIoServer/run/
