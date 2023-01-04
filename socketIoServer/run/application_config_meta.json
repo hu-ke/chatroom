@@ -1,0 +1,290 @@
+{
+  "io": {
+    "namespace": {
+      "/io": {
+        "connectionMiddleware": "/Users/huke/Downloads/example/config/config.default.js",
+        "packetMiddleware": "/Users/huke/Downloads/example/config/config.default.js"
+      },
+      "/": {
+        "connectionMiddleware": "/Users/huke/Downloads/example/node_modules/egg-socket.io/config/config.default.js",
+        "packetMiddleware": "/Users/huke/Downloads/example/node_modules/egg-socket.io/config/config.default.js"
+      }
+    },
+    "init": "/Users/huke/Downloads/example/node_modules/egg-socket.io/config/config.default.js"
+  },
+  "keys": "/Users/huke/Downloads/example/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/huke/Downloads/example/config/config.default.js",
+      "type": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/huke/Downloads/example/config/config.default.js",
+    "protocolWhiteList": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/huke/Downloads/example/config/config.default.js",
+    "credentials": "/Users/huke/Downloads/example/config/config.default.js",
+    "allowMethods": "/Users/huke/Downloads/example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/huke/Downloads/example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/huke/Downloads/example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/huke/Downloads/example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/huke/Downloads/example/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/huke/Downloads/example/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/huke/Downloads/example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/huke/Downloads/example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/huke/Downloads/example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/huke/Downloads/example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/huke/Downloads/example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/huke/Downloads/example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/huke/Downloads/example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/huke/Downloads/example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/huke/Downloads/example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/huke/Downloads/example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/huke/Downloads/example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/huke/Downloads/example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/huke/Downloads/example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/huke/Downloads/example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/huke/Downloads/example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/huke/Downloads/example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/huke/Downloads/example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/huke/Downloads/example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/huke/Downloads/example/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/huke/Downloads/example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/huke/Downloads/example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/huke/Downloads/example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/huke/Downloads/example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/huke/Downloads/example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/huke/Downloads/example/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/huke/Downloads/example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/huke/Downloads/example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/huke/Downloads/example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/huke/Downloads/example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/huke/Downloads/example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/huke/Downloads/example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/huke/Downloads/example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/huke/Downloads/example/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/huke/Downloads/example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/huke/Downloads/example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/huke/Downloads/example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/huke/Downloads/example/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/huke/Downloads/example/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "name": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "version": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "description": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "socket.io-client": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "env": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "level": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/huke/Downloads/example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "port": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/huke/Downloads/example/node_modules/egg/config/config.default.js"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "socket.io-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "egg-bin dev --cluster --sticky"
+  },
+  "dependencies": {
+    "egg": "^2.0.0",
+    "egg-cors": "^2.2.3",
+    "egg-socket.io": "^4.0.0",
+    "socket.io-client": "^2.0.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.6"
+  }
+}

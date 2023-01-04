@@ -1,0 +1,6 @@
+.container {
+  min-height: 600px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+}

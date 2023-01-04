@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="loginBtn">登录</button>
+    <script>
+        let loginBtn = document.getElementById('loginBtn')
+        loginBtn.addEventListener('click', async () => {
+            let res = await fetch('http://localhost:7001/login')
+            let res2 = await res.json()
+            localStorage.setItem('userId', res2.userId)
+            location.href = './index.html'
+        })
+    </script>
+</body>
+
+</html>

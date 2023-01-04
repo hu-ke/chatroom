@@ -1,0 +1,369 @@
+2022-12-05 14:09:53,212 INFO 25976 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51606790ms at 2022-12-06 04:30:00.002
+2022-12-05 14:09:53,212 INFO 25976 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35406788ms at 2022-12-06 00:00:00.000
+2022-12-05 14:09:53,212 INFO 25976 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35407788ms at 2022-12-06 00:00:01.000
+2022-12-05 14:09:53,165 INFO 25977 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:09:53,165 INFO 25977 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:09:53,165 INFO 25977 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:10:02,852 INFO 26016 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51597149ms at 2022-12-06 04:30:00.001
+2022-12-05 14:10:02,852 INFO 26016 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35397148ms at 2022-12-06 00:00:00.000
+2022-12-05 14:10:02,852 INFO 26016 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35398148ms at 2022-12-06 00:00:01.000
+2022-12-05 14:10:02,809 INFO 26018 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:10:02,809 INFO 26018 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:10:02,809 INFO 26018 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:10:15,209 INFO 26057 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:10:15,209 INFO 26057 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:10:15,209 INFO 26057 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:16:04,917 INFO 26314 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:16:04,917 INFO 26314 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:16:04,917 INFO 26314 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:17:57,187 INFO 26320 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:17:57,187 INFO 26320 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:17:57,187 INFO 26320 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:20:30,563 INFO 26348 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50969439ms at 2022-12-06 04:30:00.002
+2022-12-05 14:20:30,563 INFO 26348 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34769437ms at 2022-12-06 00:00:00.000
+2022-12-05 14:20:30,563 INFO 26348 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34770437ms at 2022-12-06 00:00:01.000
+2022-12-05 14:20:30,521 INFO 26349 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:20:30,521 INFO 26349 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:20:30,521 INFO 26349 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:33:31,634 INFO 26518 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50188367ms at 2022-12-06 04:30:00.001
+2022-12-05 14:33:31,634 INFO 26518 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33988366ms at 2022-12-06 00:00:00.000
+2022-12-05 14:33:31,634 INFO 26518 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33989366ms at 2022-12-06 00:00:01.000
+2022-12-05 14:33:31,580 INFO 26519 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:33:31,580 INFO 26519 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:33:31,580 INFO 26519 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:34:38,894 INFO 26540 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:34:38,894 INFO 26540 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:34:38,894 INFO 26540 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 14:47:08,994 INFO 26629 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 14:47:08,994 INFO 26629 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 14:47:08,994 INFO 26629 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:05:03,413 INFO 26729 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:05:03,413 INFO 26729 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:05:03,413 INFO 26729 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:08:52,316 INFO 26761 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:08:52,316 INFO 26761 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:08:52,316 INFO 26761 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:10:09,086 INFO 26767 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:10:09,086 INFO 26767 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:10:09,086 INFO 26767 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:10:30,117 INFO 26773 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:10:30,117 INFO 26773 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:10:30,117 INFO 26773 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:12:41,751 INFO 26795 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:12:41,751 INFO 26795 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:12:41,751 INFO 26795 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:13:04,462 INFO 26800 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:13:04,462 INFO 26800 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:13:04,462 INFO 26800 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:13:13,209 INFO 26805 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47806792ms at 2022-12-06 04:30:00.001
+2022-12-05 15:13:13,209 INFO 26805 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31606791ms at 2022-12-06 00:00:00.000
+2022-12-05 15:13:13,209 INFO 26805 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31607791ms at 2022-12-06 00:00:01.000
+2022-12-05 15:13:13,167 INFO 26806 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:13:13,167 INFO 26806 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:13:13,167 INFO 26806 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:13:25,318 INFO 26809 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:13:25,318 INFO 26809 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:13:25,318 INFO 26809 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:18:41,740 INFO 26830 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47478261ms at 2022-12-06 04:30:00.001
+2022-12-05 15:18:41,740 INFO 26830 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31278260ms at 2022-12-06 00:00:00.000
+2022-12-05 15:18:41,740 INFO 26830 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31279260ms at 2022-12-06 00:00:01.000
+2022-12-05 15:18:41,698 INFO 26831 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:18:41,698 INFO 26831 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:18:41,698 INFO 26831 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:31:57,972 INFO 26883 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:31:57,972 INFO 26883 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:31:57,972 INFO 26883 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:33:51,787 INFO 26891 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:33:51,787 INFO 26891 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:33:51,787 INFO 26891 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:34:26,235 INFO 26896 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:34:26,235 INFO 26896 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:34:26,235 INFO 26896 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:34:47,665 INFO 26898 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:34:47,665 INFO 26898 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:34:47,665 INFO 26898 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:38:10,417 INFO 26901 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:38:10,417 INFO 26901 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:38:10,417 INFO 26901 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:38:58,629 INFO 26908 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:38:58,629 INFO 26908 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:38:58,629 INFO 26908 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:39:07,313 INFO 26915 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:39:07,313 INFO 26915 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:39:07,313 INFO 26915 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:43:16,313 INFO 26928 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:43:16,313 INFO 26928 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:43:16,313 INFO 26928 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:43:26,187 INFO 26934 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:43:26,187 INFO 26934 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:43:26,187 INFO 26934 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:44:57,541 INFO 26936 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:44:57,541 INFO 26936 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:44:57,541 INFO 26936 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:45:33,032 INFO 26942 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:45:33,032 INFO 26942 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:45:33,032 INFO 26942 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:45:54,593 INFO 26944 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:45:54,593 INFO 26944 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:45:54,593 INFO 26944 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-05 15:46:23,756 INFO 26945 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-05 15:46:23,756 INFO 26945 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-05 15:46:23,756 INFO 26945 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 16:45:12,622 INFO 61953 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42287379ms at 2022-12-09 04:30:00.001
+2022-12-08 16:45:12,623 INFO 61953 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26087377ms at 2022-12-09 00:00:00.000
+2022-12-08 16:45:12,623 INFO 61953 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26088377ms at 2022-12-09 00:00:01.000
+2022-12-08 16:45:12,561 INFO 61954 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 16:45:12,561 INFO 61954 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 16:45:12,561 INFO 61954 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 16:56:00,421 INFO 62037 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 16:56:00,421 INFO 62037 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 16:56:00,421 INFO 62037 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:11:36,510 INFO 62081 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:11:36,510 INFO 62081 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:11:36,511 INFO 62081 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:12:01,981 INFO 62117 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:12:01,981 INFO 62117 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:12:01,981 INFO 62117 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:27:35,581 INFO 62169 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39744420ms at 2022-12-09 04:30:00.001
+2022-12-08 17:27:35,581 INFO 62169 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23544419ms at 2022-12-09 00:00:00.000
+2022-12-08 17:27:35,581 INFO 62169 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23545419ms at 2022-12-09 00:00:01.000
+2022-12-08 17:27:35,536 INFO 62170 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:27:35,536 INFO 62170 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:27:35,536 INFO 62170 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:33:12,813 INFO 62233 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39407189ms at 2022-12-09 04:30:00.002
+2022-12-08 17:33:12,813 INFO 62233 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23207187ms at 2022-12-09 00:00:00.000
+2022-12-08 17:33:12,813 INFO 62233 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23208187ms at 2022-12-09 00:00:01.000
+2022-12-08 17:33:12,770 INFO 62234 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:33:12,770 INFO 62234 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:33:12,770 INFO 62234 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:38:51,456 INFO 62282 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:38:51,456 INFO 62282 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:38:51,457 INFO 62282 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:40:02,213 INFO 62293 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38997789ms at 2022-12-09 04:30:00.001
+2022-12-08 17:40:02,213 INFO 62293 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22797787ms at 2022-12-09 00:00:00.000
+2022-12-08 17:40:02,213 INFO 62293 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22798787ms at 2022-12-09 00:00:01.000
+2022-12-08 17:40:02,169 INFO 62294 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:40:02,169 INFO 62294 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:40:02,169 INFO 62294 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:44:12,059 INFO 62341 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38747943ms at 2022-12-09 04:30:00.001
+2022-12-08 17:44:12,059 INFO 62341 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22547941ms at 2022-12-09 00:00:00.000
+2022-12-08 17:44:12,059 INFO 62341 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22548941ms at 2022-12-09 00:00:01.000
+2022-12-08 17:44:12,014 INFO 62342 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:44:12,015 INFO 62342 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:44:12,015 INFO 62342 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:44:34,848 INFO 62348 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:44:34,848 INFO 62348 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:44:34,848 INFO 62348 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:44:47,047 INFO 62351 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:44:47,047 INFO 62351 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:44:47,047 INFO 62351 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 17:49:33,487 INFO 62364 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 17:49:33,487 INFO 62364 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 17:49:33,487 INFO 62364 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:23:13,047 INFO 62566 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:23:13,047 INFO 62566 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:23:13,048 INFO 62566 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:23:41,269 INFO 62572 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:23:41,269 INFO 62572 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:23:41,269 INFO 62572 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:24:15,096 INFO 62589 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36344905ms at 2022-12-09 04:30:00.001
+2022-12-08 18:24:15,096 INFO 62589 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20144904ms at 2022-12-09 00:00:00.000
+2022-12-08 18:24:15,096 INFO 62589 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20145904ms at 2022-12-09 00:00:01.000
+2022-12-08 18:24:15,048 INFO 62590 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:24:15,048 INFO 62590 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:24:15,048 INFO 62590 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:26:16,003 INFO 62614 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:26:16,003 INFO 62614 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:26:16,003 INFO 62614 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:26:21,586 INFO 62621 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36218416ms at 2022-12-09 04:30:00.002
+2022-12-08 18:26:21,586 INFO 62621 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20018414ms at 2022-12-09 00:00:00.000
+2022-12-08 18:26:21,586 INFO 62621 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20019414ms at 2022-12-09 00:00:01.000
+2022-12-08 18:26:21,541 INFO 62622 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:26:21,541 INFO 62622 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:26:21,541 INFO 62622 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:33:53,772 INFO 62686 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:33:53,772 INFO 62686 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:33:53,773 INFO 62686 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:34:19,907 INFO 62695 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:34:19,907 INFO 62695 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:34:19,907 INFO 62695 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:35:56,770 INFO 62701 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:35:56,770 INFO 62701 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:35:56,770 INFO 62701 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:37:18,279 INFO 62710 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:37:18,279 INFO 62710 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:37:18,279 INFO 62710 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:37:23,492 INFO 62722 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35556509ms at 2022-12-09 04:30:00.001
+2022-12-08 18:37:23,492 INFO 62722 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19356508ms at 2022-12-09 00:00:00.000
+2022-12-08 18:37:23,492 INFO 62722 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19357508ms at 2022-12-09 00:00:01.000
+2022-12-08 18:37:23,448 INFO 62723 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:37:23,448 INFO 62723 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:37:23,448 INFO 62723 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:37:33,591 INFO 62742 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35546410ms at 2022-12-09 04:30:00.001
+2022-12-08 18:37:33,591 INFO 62742 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19346409ms at 2022-12-09 00:00:00.000
+2022-12-08 18:37:33,591 INFO 62742 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19347409ms at 2022-12-09 00:00:01.000
+2022-12-08 18:37:33,546 INFO 62743 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:37:33,546 INFO 62743 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:37:33,546 INFO 62743 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:40:27,712 INFO 62759 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:40:27,712 INFO 62759 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:40:27,712 INFO 62759 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:41:32,061 INFO 62764 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:41:32,061 INFO 62764 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:41:32,062 INFO 62764 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:42:01,512 INFO 62770 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:42:01,512 INFO 62770 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:42:01,512 INFO 62770 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:43:50,380 INFO 62773 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:43:50,380 INFO 62773 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:43:50,381 INFO 62773 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:46:37,043 INFO 62779 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:46:37,043 INFO 62779 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:46:37,043 INFO 62779 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:47:07,956 INFO 62786 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:47:07,956 INFO 62786 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:47:07,956 INFO 62786 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:47:39,375 INFO 62787 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:47:39,375 INFO 62787 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:47:39,376 INFO 62787 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:47:48,519 INFO 62789 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:47:48,519 INFO 62789 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:47:48,519 INFO 62789 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:48:10,933 INFO 62790 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:48:10,933 INFO 62790 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:48:10,933 INFO 62790 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:48:28,285 INFO 62796 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34891716ms at 2022-12-09 04:30:00.001
+2022-12-08 18:48:28,285 INFO 62796 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18691715ms at 2022-12-09 00:00:00.000
+2022-12-08 18:48:28,285 INFO 62796 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18692715ms at 2022-12-09 00:00:01.000
+2022-12-08 18:48:28,241 INFO 62797 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:48:28,241 INFO 62797 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:48:28,241 INFO 62797 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:49:24,616 INFO 62801 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:49:24,616 INFO 62801 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:49:24,616 INFO 62801 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:50:30,946 INFO 62811 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:50:30,946 INFO 62811 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:50:30,947 INFO 62811 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:53:06,213 INFO 62839 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:53:06,213 INFO 62839 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:53:06,213 INFO 62839 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:53:35,492 INFO 62845 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:53:35,492 INFO 62845 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:53:35,492 INFO 62845 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:55:53,137 INFO 62858 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34446864ms at 2022-12-09 04:30:00.001
+2022-12-08 18:55:53,137 INFO 62858 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18246863ms at 2022-12-09 00:00:00.000
+2022-12-08 18:55:53,137 INFO 62858 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18247863ms at 2022-12-09 00:00:01.000
+2022-12-08 18:55:53,090 INFO 62859 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:55:53,090 INFO 62859 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:55:53,090 INFO 62859 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:56:38,493 INFO 62868 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:56:38,493 INFO 62868 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:56:38,493 INFO 62868 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:56:42,354 INFO 62873 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:56:42,354 INFO 62873 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:56:42,354 INFO 62873 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 18:57:18,314 INFO 62879 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 18:57:18,314 INFO 62879 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 18:57:18,314 INFO 62879 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:01:10,428 INFO 62910 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:01:10,428 INFO 62910 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:01:10,428 INFO 62910 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:01:29,720 INFO 62913 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:01:29,720 INFO 62913 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:01:29,720 INFO 62913 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:01:35,816 INFO 62919 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34104185ms at 2022-12-09 04:30:00.001
+2022-12-08 19:01:35,816 INFO 62919 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 17904184ms at 2022-12-09 00:00:00.000
+2022-12-08 19:01:35,816 INFO 62919 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 17905184ms at 2022-12-09 00:00:01.000
+2022-12-08 19:01:35,771 INFO 62920 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:01:35,771 INFO 62920 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:01:35,771 INFO 62920 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:02:06,208 INFO 62926 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:02:06,208 INFO 62926 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:02:06,208 INFO 62926 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:02:35,612 INFO 62936 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34044389ms at 2022-12-09 04:30:00.001
+2022-12-08 19:02:35,612 INFO 62936 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 17844388ms at 2022-12-09 00:00:00.000
+2022-12-08 19:02:35,612 INFO 62936 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 17845388ms at 2022-12-09 00:00:01.000
+2022-12-08 19:02:35,565 INFO 62937 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:02:35,565 INFO 62937 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:02:35,565 INFO 62937 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:03:02,465 INFO 62943 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:03:02,465 INFO 62943 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:03:02,465 INFO 62943 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:12:24,712 INFO 63043 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:12:24,712 INFO 63043 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:12:24,712 INFO 63043 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:12:42,148 INFO 63049 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:12:42,148 INFO 63049 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:12:42,148 INFO 63049 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:21:28,459 INFO 63082 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32911542ms at 2022-12-09 04:30:00.001
+2022-12-08 19:21:28,459 INFO 63082 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16711541ms at 2022-12-09 00:00:00.000
+2022-12-08 19:21:28,459 INFO 63082 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16712541ms at 2022-12-09 00:00:01.000
+2022-12-08 19:21:28,415 INFO 63083 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:21:28,415 INFO 63083 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:21:28,415 INFO 63083 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:26:16,265 INFO 63118 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32623737ms at 2022-12-09 04:30:00.002
+2022-12-08 19:26:16,265 INFO 63118 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16423735ms at 2022-12-09 00:00:00.000
+2022-12-08 19:26:16,265 INFO 63118 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16424735ms at 2022-12-09 00:00:01.000
+2022-12-08 19:26:16,220 INFO 63119 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:26:16,220 INFO 63119 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:26:16,220 INFO 63119 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:26:38,729 INFO 63125 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:26:38,729 INFO 63125 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:26:38,729 INFO 63125 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:26:52,701 INFO 63135 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32587300ms at 2022-12-09 04:30:00.001
+2022-12-08 19:26:52,701 INFO 63135 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16387299ms at 2022-12-09 00:00:00.000
+2022-12-08 19:26:52,701 INFO 63135 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16388299ms at 2022-12-09 00:00:01.000
+2022-12-08 19:26:52,653 INFO 63136 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:26:52,653 INFO 63136 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:26:52,653 INFO 63136 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:27:17,947 INFO 63141 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:27:17,947 INFO 63141 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:27:17,947 INFO 63141 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:29:35,733 INFO 63157 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:29:35,733 INFO 63157 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:29:35,733 INFO 63157 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:29:39,790 INFO 63167 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32420212ms at 2022-12-09 04:30:00.002
+2022-12-08 19:29:39,790 INFO 63167 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16220210ms at 2022-12-09 00:00:00.000
+2022-12-08 19:29:39,790 INFO 63167 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16221210ms at 2022-12-09 00:00:01.000
+2022-12-08 19:29:39,741 INFO 63168 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:29:39,741 INFO 63168 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:29:39,742 INFO 63168 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:32:02,852 INFO 63185 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:32:02,852 INFO 63185 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:32:02,852 INFO 63185 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:32:26,428 INFO 63202 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32253573ms at 2022-12-09 04:30:00.001
+2022-12-08 19:32:26,428 INFO 63202 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16053572ms at 2022-12-09 00:00:00.000
+2022-12-08 19:32:26,428 INFO 63202 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16054572ms at 2022-12-09 00:00:01.000
+2022-12-08 19:32:26,384 INFO 63203 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:32:26,384 INFO 63203 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:32:26,384 INFO 63203 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:44:51,816 INFO 63289 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:44:51,816 INFO 63289 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:44:51,816 INFO 63289 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:44:59,431 INFO 63299 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31500570ms at 2022-12-09 04:30:00.001
+2022-12-08 19:44:59,432 INFO 63299 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15300568ms at 2022-12-09 00:00:00.000
+2022-12-08 19:44:59,432 INFO 63299 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15301568ms at 2022-12-09 00:00:01.000
+2022-12-08 19:44:59,387 INFO 63300 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:44:59,387 INFO 63300 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:44:59,387 INFO 63300 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:51:47,623 INFO 63333 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:51:47,623 INFO 63333 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:51:47,623 INFO 63333 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:51:59,253 INFO 63339 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:51:59,253 INFO 63339 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:51:59,253 INFO 63339 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:52:52,080 INFO 63342 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:52:52,080 INFO 63342 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:52:52,080 INFO 63342 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:53:04,489 INFO 63347 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:53:04,489 INFO 63347 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:53:04,489 INFO 63347 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-08 19:53:33,324 INFO 63350 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-12-08 19:53:33,324 INFO 63350 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-12-08 19:53:33,324 INFO 63350 [egg-schedule]: register schedule /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-12-09 00:06:11,055 INFO 63350 [Job#16705155710456290501789421251] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-12-09 00:06:11,056 INFO 63350 [Job#16705155710516290501850447501] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-12-09 00:06:11,062 INFO 63350 [Job#16705155710456290501789421251] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms. 
+2022-12-09 00:06:11,063 INFO 63350 [Job#16705155710516290501850447501] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 7ms. 
+2022-12-09 00:06:11,051 INFO 63299 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86028955ms at 2022-12-10 00:00:00.006
+2022-12-09 00:06:11,054 INFO 63299 [Timer] /Users/huke/Downloads/egg-socket.io-master/example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86029949ms at 2022-12-10 00:00:01.003
