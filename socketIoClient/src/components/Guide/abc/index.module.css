@@ -1,0 +1,8 @@
+#videos {
+    display: flex;
+}
+
+video {
+    margin-left: 20px;
+    width: 200px;
+}
