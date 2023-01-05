@@ -17,13 +17,13 @@ exports.keys = '123';
 //   origin: '*'
 // }
 
-
 exports.security = {
   csrf: {
     enable: false,
   },
   domainWhiteList: ['*'],
 };
+
 exports.cors = {
   origin: '*',
   credentials: true, // 允许Cookies可以跨域

@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react"
-import './index.module.css'
+import './index.less'
 
 const createElementFromString = (htmlString) => {
     const div = document.createElement('div')
@@ -16,7 +16,7 @@ const createElementFromString = (htmlString) => {
 // 调用peerB的setLocalDescription(description)方法，这个方法会触发peerB的icecandidate监听方法handleConnection，在这个方法里，会将peerB的icecandidate发送给peerA. peerA收到后执行addIceCandidate(candidate)，将peerB的candidate也登记
 // 将peerB的SDP发送给peerA.
 // peerA和peerB开始传递音视频
-const Abc = ({ socket }) => {
+const VideoRoom = ({ socket }) => {
     // const room = Math.random().toString(36).substr(2, 9)
     const room = 'hkhk'
     const videosEle = useRef() as any;
@@ -186,7 +186,7 @@ const Abc = ({ socket }) => {
     }
 
     return (
-        <div>
+        <div style={{ border: '1px solid red', padding: '20px', height: '600px' }}>
             <button
                 onClick={() => {
                     detectLocalMedia()
@@ -206,4 +206,4 @@ const Abc = ({ socket }) => {
     )
 }
 
-export default Abc
+export default VideoRoom

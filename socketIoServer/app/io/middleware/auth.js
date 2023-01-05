@@ -6,7 +6,6 @@ module.exports = () => {
     if (!ctx.session.user) {
       return
     }
-    // const say = await ctx.service.user.say();
     if (!ctx.session.userSocketMap) {
       ctx.session.userSocketMap = {}
     }
