@@ -76,8 +76,8 @@ const Abc = ({ socket }) => {
                 pc,
                 video
             }
+            setRemotes({ ...remotes })
         }
-        setRemotes({ ...remotes })
     }
     // 初始化各video元素
     const initElements = () => {
@@ -96,14 +96,15 @@ const Abc = ({ socket }) => {
     }, [localStream])
 
     const initEvents = () => {
-        // socket.on('leaveed', function (id) {
-        //     console.log('leaveed', id)
-        //     if (remotes[id]) {
-        //         remotes[id].pc.close()
-        //         videos.removeChild(remotes[id].video)
-        //         delete remotes[id]
-        //     }
-        // })
+        socket.on('leaveed', function (id) {
+            console.log('leaveed', id)
+            if (remotes[id]) {
+                remotes[id].pc.close()
+                videosEle.current.removeChild(remotes[id].video)
+                delete remotes[id]
+                setRemotes({ ...remotes })
+            }
+        })
 
         // socket.on('full', function (room) {
         //     console.log('Room ' + room + ' is full')

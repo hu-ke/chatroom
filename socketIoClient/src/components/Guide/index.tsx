@@ -35,6 +35,7 @@ const Guide = () => {
       console.log('#disconnect', msg);
     });
     socket.on('disconnecting', () => {
+      socket.emit('disconnecting')
       console.log('#disconnecting');
     });
     socket.on('error', () => {
