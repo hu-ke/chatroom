@@ -92,6 +92,8 @@ const Abc = ({ socket }) => {
     useEffect(() => {
         if (localStream) {
             initEvents()
+            // 创建或者加入房间，具体是加入还是创建需看房间号是否存在 
+            socket.emit('createOrJoin', room)
         }
     }, [localStream])
 
@@ -166,9 +168,6 @@ const Abc = ({ socket }) => {
             .then(localStream => {
                 localVideoEle.current.srcObject = localStream
                 setLocalStream(localStream)
-                // 创建或者加入房间，具体是加入还是创建需看房间号是否存在 
-                socket.emit('createOrJoin', room)
-
             }).catch((e) => {
                 alert(e)
             })
