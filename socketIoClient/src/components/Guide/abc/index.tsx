@@ -33,52 +33,6 @@ const Abc = ({ socket }) => {
         socket.emit('message', target, msg)
     }
 
-    // 创建RTC对象，一个RTC对象只能与一个远端连接 
-    const createRTC = (stream, id) => {
-        const pc = new RTCPeerConnection({
-            iceServers: [
-                {
-                    urls: 'stun:stun.l.google.com:19302'
-                }
-            ]
-        })
-
-        // 获取本地网络信息，并发送给通信方 
-        pc.addEventListener('icecandidate', event => {
-            // 触发时机是在pc.setLocalDescription之后
-            if (event.candidate) {
-                // 发送自身的网络信息到通信方 
-                sendMsg(id, {
-                    type: 'candidate',
-                    candidate: {
-                        sdpMLineIndex: event.candidate.sdpMLineIndex,
-                        sdpMid: event.candidate.sdpMid,
-                        candidate: event.candidate.candidate
-                    }
-                })
-            }
-        })
-
-        // 有远程视频流时，显示远程视频流 
-        pc.addEventListener('track', event => {
-            console.log('track>>')
-            remotes[id].video.srcObject = event.streams[0]
-        })
-
-        // 添加本地视频流到会话中 
-        stream.getTracks().forEach(track => pc.addTrack(track, stream))
-
-        // 用于显示远程视频 
-        if (!remotes[id]) {
-            const video = createElementFromString(`<video key="${id}" autoPlay muted playsInline></video>`)
-            videosEle.current.append(video)
-            remotes[id] = {
-                pc,
-                video
-            }
-            setRemotes({ ...remotes })
-        }
-    }
     // 初始化各video元素
     const initElements = () => {
         // 视频列表区域 
@@ -96,6 +50,57 @@ const Abc = ({ socket }) => {
             socket.emit('createOrJoin', room)
         }
     }, [localStream])
+
+    const createLocalPc = () => {
+        return new RTCPeerConnection({
+            iceServers: [
+                {
+                    urls: 'stun:stun.l.google.com:19302'
+                }
+            ]
+        })
+    }
+
+    const initPcEvents = (targetSocketId, pc, video) => {
+        // 获取本地网络信息，并发送给通信方 
+        pc.addEventListener('icecandidate', event => {
+            // 触发时机是在pc.setLocalDescription之后
+            if (event.candidate) {
+                // 发送自身的网络信息到通信方 
+                sendMsg(targetSocketId, {
+                    type: 'candidate',
+                    candidate: {
+                        sdpMLineIndex: event.candidate.sdpMLineIndex,
+                        sdpMid: event.candidate.sdpMid,
+                        candidate: event.candidate.candidate
+                    }
+                })
+            }
+        })
+
+        // 有远程视频流时，显示远程视频流 
+        pc.addEventListener('track', event => {
+            console.log('track>>')
+            video.srcObject = event.streams[0]
+        })
+    }
+
+    const storeRemotesPcVideo = (remoteSocketId, pc, video) => {
+        // 用于显示远程视频 
+        if (!remotes[remoteSocketId]) {
+            remotes[remoteSocketId] = {
+                pc,
+                video
+            }
+            setRemotes({ ...remotes })
+        }
+    }
+
+    const createVideo = (remoteSocketId) => {
+        const video = createElementFromString(`<video key="${remoteSocketId}" autoPlay muted playsInline></video>`)
+        videosEle.current.append(video)
+        return video
+    }
 
     const initEvents = () => {
         socket.on('leaveed', function (id) {
@@ -117,9 +122,13 @@ const Abc = ({ socket }) => {
             console.log('<-:', message.type)
             switch (message.type) {
                 case 'join': {
-                    // 有新的人加入就重新设置会话，重新与新加入的人建立新会话 
-                    createRTC(localStream, message.socketId)
-                    const pc = remotes[message.socketId].pc
+                    // 有新的人加入就重新设置会话，重新与新加入的人建立新会话
+                    const pc = createLocalPc()
+                    const video = createVideo(message.socketId)
+                    storeRemotesPcVideo(message.socketId, pc, video)
+                    initPcEvents(message.socketId, pc, video)
+                    // 添加本地视频流到会话中 
+                    localStream.getTracks().forEach(track => pc.addTrack(track, localStream))
                     const offer = await pc.createOffer() // 打印offer，其实就是一个RTCSessionDescription对象。包含sdp，type：offer/answer两个字段
                     // setLocalDescription 提交所有请求的更改。 addTrack createDataChannel 和其他类似的调用都是临时的 (调用 setLocalDescription 后生效)。 调用 setLocalDescription 时，使用由 createOffer 生成的值。
                     pc.setLocalDescription(offer)
@@ -127,8 +136,11 @@ const Abc = ({ socket }) => {
                     break
                 }
                 case 'offer': {
-                    createRTC(localStream, message.socketId)
-                    const pc = remotes[message.socketId].pc
+                    const pc = createLocalPc()
+                    const video = createVideo(message.socketId)
+                    storeRemotesPcVideo(message.socketId, pc, video)
+                    initPcEvents(message.socketId, pc, video)
+                    localStream.getTracks().forEach(track => pc.addTrack(track, localStream))
                     pc.setRemoteDescription(new RTCSessionDescription(message.offer))
                     const answer = await pc.createAnswer()
                     pc.setLocalDescription(answer)
