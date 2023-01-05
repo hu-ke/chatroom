@@ -1,3 +1,0 @@
-2023-01-04 04:39:36,596 INFO 39541 [Job#167277837659628918709701998751] /Users/huke/Downloads/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
-2023-01-04 04:39:36,602 INFO 39541 [Job#167277837659628918709701998751] /Users/huke/Downloads/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 5ms. 
-2023-01-04 04:39:36,599 INFO 35839 [Timer] /Users/huke/Downloads/example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 85823404ms at 2023-01-05 04:30:00.003
