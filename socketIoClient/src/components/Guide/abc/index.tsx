@@ -1,5 +1,11 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 import './index.module.css'
+
+const createElementFromString = (htmlString) => {
+    const div = document.createElement('div')
+    div.innerHTML = htmlString
+    return div.firstChild
+}
 
 // 碰到问题按这个顺序来调试:
 // 调用peerA (RTCPeerConnection对象) createOffer方法准备创建SDP
@@ -13,11 +19,8 @@ import './index.module.css'
 const Abc = ({ socket }) => {
     // const room = Math.random().toString(36).substr(2, 9)
     const room = 'hkhk'
-    const [videosEle, setVideosEle] = useState()
-    const [localVideoEle, setLocalVideoEle] = useState({
-        srcObject: null
-    }) as any
-    const [remoteVideoEle, setRemoteVideoEle] = useState()
+    const videosEle = useRef() as any;
+    const localVideoEle = useRef() as any;
     // 存储通信方信息 
     const [remotes, setRemotes] = useState({})
     // 本地流
@@ -66,13 +69,12 @@ const Abc = ({ socket }) => {
         stream.getTracks().forEach(track => pc.addTrack(track, stream))
 
         // 用于显示远程视频 
-        // const video = document.createElement('video')
-        // video.setAttribute('autolay', true)
-        // video.setAttribute('playsinline', true)
-        // videos.append(video)
+
+        const video = createElementFromString('<video autoPlay muted playsInline></video>')
+        videosEle.current.append(video)
         remotes[id] = {
             pc,
-            video: remoteVideoEle
+            video
         }
         setRemotes({ ...remotes })
     }
@@ -80,13 +82,9 @@ const Abc = ({ socket }) => {
     const initElements = () => {
         // 视频列表区域 
         const videos = document.querySelector('#videos') as any;
-        setVideosEle(videos)
+        videosEle.current = videos
         // 本地视频预览 
-        const localVideo = document.querySelector('#localVideo') as any;
-        setLocalVideoEle(localVideo)
-        // 远程视频预览 
-        const video = document.querySelector('#video') as any;
-        setRemoteVideoEle(video)
+        localVideoEle.current = document.querySelector('#localVideo') as any;
     }
 
     // 在获取到localStream之后，监听事件
@@ -164,9 +162,8 @@ const Abc = ({ socket }) => {
                 video: true
             })
             .then(localStream => {
-                localVideoEle.srcObject = localStream
+                localVideoEle.current.srcObject = localStream
                 setLocalStream(localStream)
-                setLocalVideoEle(localVideoEle)
                 // 创建或者加入房间，具体是加入还是创建需看房间号是否存在 
                 socket.emit('createOrJoin', room)
 
@@ -190,7 +187,7 @@ const Abc = ({ socket }) => {
             </h2>
             <div id="videos" >
                 <video id="localVideo" autoPlay muted playsInline></video>
-                <video id="video" autoPlay muted playsInline></video>
+                {/* <video id="video" autoPlay muted playsInline></video> */}
             </div>
 
         </div>

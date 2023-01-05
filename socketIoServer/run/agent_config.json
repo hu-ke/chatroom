@@ -91,7 +91,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/huke/Downloads/example/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/huke/chatroom/socketIoServer/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -104,8 +104,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/huke/Downloads/example/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/huke/Downloads/example/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/huke/chatroom/socketIoServer/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/huke/chatroom/socketIoServer/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -154,14 +154,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/huke/Downloads/example/app/public",
+      "dir": "/Users/huke/chatroom/socketIoServer/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/huke/Downloads/example/app/view",
+      "root": "/Users/huke/chatroom/socketIoServer/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -215,9 +215,9 @@
         "egg-bin": "^4.3.6"
       }
     },
-    "baseDir": "/Users/huke/Downloads/example",
+    "baseDir": "/Users/huke/chatroom/socketIoServer",
     "HOME": "/Users/huke",
-    "rundir": "/Users/huke/Downloads/example/run",
+    "rundir": "/Users/huke/chatroom/socketIoServer/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -250,7 +250,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/huke/Downloads/example/logs/socket.io-example",
+      "dir": "/Users/huke/chatroom/socketIoServer/logs/socket.io-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -328,8 +328,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-onerror",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-onerror",
       "version": "2.1.1"
     },
     "session": {
@@ -339,8 +339,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-session",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-session",
       "version": "3.3.0",
       "dependents": [
         "io"
@@ -353,8 +353,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-i18n",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -364,8 +364,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-watcher",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-watcher",
       "version": "3.1.1",
       "dependents": [
         "development"
@@ -380,8 +380,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-multipart",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -393,8 +393,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-security",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-security",
       "version": "2.11.0"
     },
     "development": {
@@ -408,8 +408,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-development",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -421,8 +421,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-logrotator",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -432,8 +432,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-schedule",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-schedule",
       "version": "3.7.0",
       "dependents": [
         "logrotator"
@@ -446,8 +446,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-static",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -459,8 +459,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-jsonp",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -470,8 +470,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/node_modules/egg/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-view",
+      "from": "/Users/huke/chatroom/socketIoServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-view",
       "version": "2.1.3"
     },
     "io": {
@@ -483,8 +483,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-socket.io",
+      "from": "/Users/huke/chatroom/socketIoServer/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-socket.io",
       "version": "4.1.6"
     },
     "cors": {
@@ -494,14 +494,14 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/huke/Downloads/example/config/plugin.js",
-      "path": "/Users/huke/Downloads/example/node_modules/egg-cors",
+      "from": "/Users/huke/chatroom/socketIoServer/config/plugin.js",
+      "path": "/Users/huke/chatroom/socketIoServer/node_modules/egg-cors",
       "version": "2.2.3"
     }
   },
   "appInfo": {
     "name": "socket.io-example",
-    "baseDir": "/Users/huke/Downloads/example",
+    "baseDir": "/Users/huke/chatroom/socketIoServer",
     "env": "local",
     "scope": "",
     "HOME": "/Users/huke",
@@ -523,6 +523,6 @@
         "egg-bin": "^4.3.6"
       }
     },
-    "root": "/Users/huke/Downloads/example"
+    "root": "/Users/huke/chatroom/socketIoServer"
   }
 }
