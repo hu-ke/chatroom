@@ -180,7 +180,7 @@ const Abc = ({ socket }) => {
                     detectLocalMedia()
                 }}
             >
-                开启本地视频音频
+                加入<span style={{ color: 'red' }}>{room}</span>视频室
             </button>
             <h2>
                 <span>房间号：</span>
@@ -188,7 +188,6 @@ const Abc = ({ socket }) => {
             </h2>
             <div id="videos" >
                 <video id="localVideo" autoPlay muted playsInline></video>
-                {/* <video id="video" autoPlay muted playsInline></video> */}
             </div>
 
         </div>
