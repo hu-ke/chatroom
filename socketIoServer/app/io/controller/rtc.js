@@ -41,17 +41,20 @@ module.exports = app => {
                 socket.join(room)
                 // 通知当前客户端加入房间成功
                 // socket.emit('joined', room, socket.id)
+
                 // 通知房间中的其他客户端有人加入
-                app.io.of('/io').to(room).emit('message', {
+                socket.broadcast.to(room).emit('message', {
                     socketId: socket.id,
                     type: 'join'
                 })
-                // socket.broadcast.to(room).emit('message', {
-                //     socketId: socket.id,
-                //     type: 'join'
-                // })
             }
         }
     }
     return Controller;
 };
+
+//通知聊天室内所有peer
+// app.io.of('/io').to(room).emit('message', {
+//     socketId: socket.id,
+//     type: 'join'
+// })

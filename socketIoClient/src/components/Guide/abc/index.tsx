@@ -69,12 +69,13 @@ const Abc = ({ socket }) => {
         stream.getTracks().forEach(track => pc.addTrack(track, stream))
 
         // 用于显示远程视频 
-
-        const video = createElementFromString('<video autoPlay muted playsInline></video>')
-        videosEle.current.append(video)
-        remotes[id] = {
-            pc,
-            video
+        if (!remotes[id]) {
+            const video = createElementFromString(`<video key="${id}" autoPlay muted playsInline></video>`)
+            videosEle.current.append(video)
+            remotes[id] = {
+                pc,
+                video
+            }
         }
         setRemotes({ ...remotes })
     }
