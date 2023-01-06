@@ -9,8 +9,10 @@ module.exports = app => {
       if (info.target) {
         this.ctx.app.io.of('/io').sockets[info.target].emit('res', info.message)
       } else {
-        // broadcast
-        this.ctx.app.io.of("/io").emit('res', info.message)
+        this.ctx.app.io.of("/io").emit('res', {
+          msg: info.message,
+          userId: this.ctx.session.user.userId
+        })
       }
       // this.ctx.app.io.of("/io").sockets.foreach(i => console.log(i))
       // const say = await this.ctx.service.user.say();

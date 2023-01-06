@@ -6,6 +6,7 @@ const chatRoom = ({ socket }) => {
     const [messageList, setMessageList] = useState<any>([])
 
     const onSendClick = () => {
+        console.log('-->', message)
         socket?.emit('msg', {
             target: targetSocketId,
             message
@@ -16,9 +17,12 @@ const chatRoom = ({ socket }) => {
         if (!socket) {
             return
         }
-        socket.on('res', (msg) => {
-            console.log('msg>>', msg)
-            messageList.push(msg)
+        socket.on('res', ({ msg, userId }) => {
+            console.log('<--', msg, userId)
+            messageList.push({
+                msg,
+                userId: userId ? userId.slice(-5) : ''
+            })
             setMessageList([...messageList])
         })
     }, [socket])
@@ -33,9 +37,9 @@ const chatRoom = ({ socket }) => {
             <div>
                 聊天信息:
                 {
-                    messageList.map((msg, i) => {
+                    messageList.map(({ msg, userId }, i) => {
                         return (
-                            <div key={i}>{msg}</div>
+                            <div key={i}><span style={{ color: 'red' }}>{userId}:</span> {msg}</div>
                         )
                     })
                 }
