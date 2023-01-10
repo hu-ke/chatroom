@@ -8,14 +8,15 @@ const createElementFromString = (htmlString) => {
 }
 
 // 碰到问题按这个顺序来调试:
-// 调用peerA (RTCPeerConnection对象) createOffer方法准备创建SDP
-// 在createOffer的回调方法里，同时做了这两件事
-// 调用peerA的setLocalDescription(description)方法，这个方法会触发peerA的icecandidate 监听方法handleConnection. 在这个方法里，会将peerA的icecandidate发送给peerB. 然后PeerB执行addIceCandidate(candidate)，将peerA的candidate登记在案.
-// 将peerA的description (就是SDP)发送给peerB
-// peerB收到peerA发来的SDP，执行createAnswer，在这个回调方法里，同时做两件事
-// 调用peerB的setLocalDescription(description)方法，这个方法会触发peerB的icecandidate监听方法handleConnection，在这个方法里，会将peerB的icecandidate发送给peerA. peerA收到后执行addIceCandidate(candidate)，将peerB的candidate也登记
-// 将peerB的SDP发送给peerA.
-// peerA和peerB开始传递音视频
+// 1. 调用peerA (RTCPeerConnection对象) createOffer方法准备创建SDP
+// 2. 在createOffer的回调方法里，同时做了这两件事
+//   a. 调用peerA的setLocalDescription(description)方法，这个方法会触发peerA的icecandidate 监听方法handleConnection. 在这个方法里，会将peerA的icecandidate发送给peerB. 然后PeerB执行addIceCandidate(candidate)，将peerA的candidate登记在案.
+//   b. 将peerA的description (就是SDP)发送给peerB
+// 3. peerB收到peerA发来的SDP，执行createAnswer，在这个回调方法里，同时做两件事
+//   a. 调用peerB的setLocalDescription(description)方法，这个方法会触发peerB的icecandidate监听方法handleConnection，在这个方法里，会将peerB的icecandidate发送给peerA. peerA收到后执行addIceCandidate(candidate)，将peerB的candidate也登记
+//   b. 将peerB的SDP发送给peerA.
+// 4. peerA和peerB开始传递音视频
+
 const VideoRoom = ({ socket }) => {
     // const room = Math.random().toString(36).substr(2, 9)
     const room = 'hkhk'
