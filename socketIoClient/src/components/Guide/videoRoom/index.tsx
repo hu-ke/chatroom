@@ -98,7 +98,7 @@ const VideoRoom = ({ socket }) => {
     }
 
     const createVideo = (remoteSocketId) => {
-        const video = createElementFromString(`<video key="${remoteSocketId}" autoPlay muted playsInline></video>`)
+        const video = createElementFromString(`<video key="${remoteSocketId}" autoPlay playsInline></video>`)
         videosEle.current.append(video)
         return video
     }
@@ -173,6 +173,7 @@ const VideoRoom = ({ socket }) => {
 
     // 检查本地音视频，并将stream导入video元素中
     const detectLocalMedia = () => {
+        console.log(window.navigator.mediaDevices)
         navigator.mediaDevices
             .getUserMedia({
                 audio: true, // 本地测试防止回声 

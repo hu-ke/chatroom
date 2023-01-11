@@ -11,7 +11,7 @@ const Guide = () => {
   const [socketId, setSocketId] = useState<string>('')
 
   const initSocket = () => {
-    const socket = window.io('http://localhost:7001/io', {
+    const socket = window.io('http://172.20.10.8:7001/io', {
       query: {
         // userId: `client_${Math.random()}`,
       },
@@ -63,7 +63,7 @@ const Guide = () => {
           !userId ? (
             <button
               onClick={async () => {
-                let res = await fetch('http://localhost:7001/login', {
+                let res = await fetch('http://172.20.10.8:7001/login', {
                   credentials: 'include' // 解决session失效的问题
                 })
                 let res2 = await res.json()
